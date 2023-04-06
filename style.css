@@ -1,0 +1,181 @@
+body {
+    background: url('https://images.pexels.com/photos/15350317/pexels-photo-15350317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+form {
+    margin: 30px 60px;
+    padding: 40px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(48, 41, 47, .8);
+}
+
+form h1 {
+    color: #eff6ee;
+    letter-spacing: 3px;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    ALERT                                   */
+/* -------------------------------------------------------------------------- */
+
+.input-container {
+    display: flex;
+    gap: 20px;
+}
+
+#alert-message {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#alert-submit {
+    width: 100px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    color: lightslategrey;
+}
+
+#alert-submit:hover {
+    border: 1px solid lightslategray;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 PIZZA FORM                                 */
+/* -------------------------------------------------------------------------- */
+
+#selections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    font-size: larger;
+    color: white;
+}
+
+#pizza-submit {
+    height: 30px;
+    width: 200px;
+    border: 1px solid white;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 10px;
+    color: lightslategrey;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                HAIRCUT FORM                                */
+/* -------------------------------------------------------------------------- */
+
+.hair-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+}
+
+
+#date-selection {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#barber-pref {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#hair-submit {
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    color: lightslategrey;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                ACCOUNT FORM                                */
+/* -------------------------------------------------------------------------- */
+
+.acc-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+}
+
+#username {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#email {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#p1 {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#p2 {
+    height: 30px;
+    width: 350px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: lightslategray;
+}
+
+#acc-submit {
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    color: lightslategrey;
+}
